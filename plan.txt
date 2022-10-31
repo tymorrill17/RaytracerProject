@@ -1,0 +1,84 @@
+OBJECTIVE:
+	I want to learn computer graphics and create a portfolio of projects that I can showcase.
+
+I want to create a plan/working doc of my progress so that I can organize my thoughts and stay on track. 
+Following the guide of Eric Arneback, the first basic steps:
+	1. Code up a raytracer and software rasterizer.
+		I have gone through "Raytracer in a Weekend" by Peter Shirley. I am going to go throught the sequel courses as they are not too 
+		long and are very helpful in applying these concepts as well as software design and structure. It has been a great C++ course 
+		too.
+		As for the rasterizer, I think the challenge will be greater since I do not have a guide like in the raytracer book. However, 
+		there are some good resources and it will be my first big challenge to create my own program from multiple sources of 
+		information.
+
+	2. So things complicated more than I assumed earlier, and some of the things I thought possible were actually not possible. At least 
+	not in the way I wanted.
+
+UPDATED LIST:
+
+I have completed Peter Shirley's courses on raytracing. I have a solid understanding of the ideas behind raytracing. I have also skipped 
+the software rasterizer and instead started learning the Vulkan API. I think this was a good choice, as I am getting a good idea of how 
+not only graphics algorithms work, but also how the graphics hardware works. Vulkan will not be as useful as I thought in the short 
+term, but it will be incredibly useful down the road. My above objective is still the same, however I will be splitting it up into two 
+sections: Raytracing and Vulkan. The way I see it, they are two different "sides" to graphics programming. 
+
+Vulkan:	
+	On the Vulkan side, I want to make a solid, simple graphics engine. My first goal is to finish with my current tutorial, skim 
+	through the second one, and follow a guide of how a graphics engine architecture should be constructed. My goal is to make an engine 
+	where I can play around with and implement modern graphics techniques. I want it to be well-structured, and upgradable. I think this 
+	will be a good lesson in software development. With a graphics engine, I will have a starting point for practically anything I would 
+	like to implement, or so I believe. The scope of what I feel comfortable doing will change as I understand what I am doing more.
+	
+1. Finish vulkan-tutorial and VulkanGuide.
+2. Outline how I want my engine to work.
+
+
+
+Raytracing:
+	On the raytracing side, I want to read through the Physically-Based Raytracing book. I think it is a very pleasing book to read and 
+	work through, and it seems to be an interesting way of describing the raytracing engine code. I will try to implement the "literate" 
+	parts in my own way. I'm hoping that the course provides me with a solid foundation for a raytracing engine. My goal for the 
+	raytracing engine is similar to my Vulkan renderer, but maybe not so robust and scalable. I am content with a more barebones 
+	program. 
+
+1. Translate my current raytracer to my desktop. 
+2. Read through Physically-Based Rendering.
+
+
+
+
+
+
+Things I want to do after the basics:	
+	
+	
+	
+	X. I will follow Eric Arneback's guide of projects to do:
+
+	''' 
+	Make a sphere mesh with spherical coords and render it
+	Implement shaders for simple diffuse and specular shading
+	Directional lights, point lights, and spot lights
+	Heightmap rendering
+	Write a simple parser for a simple mesh format (like Wavefront.obj), import it then render. (try meshes with textures)
+	Implement a simple minecraft renderer. 
+	Render reflections using cubemaps
+	Shadow rendering using shadow maps
+	Implement view frustum culling. (optimization technique)
+	Implement rendering of particle systems
+	Implemment gamma correction
+	Implement normal mapping
+	Learn to render lots of meshes efficiently with instanced rendering
+	Animate meshes with mesh skinning
+
+	More advanced techniques:
+	Implement post-processing techniques such as: bloom (using gaussian blur), ambient occlusion with SSAO, anti-aliasing
+	Implement deferred shading
+	'''
+
+	3. Instead of some of the above, I can also follow Scratchapixel's guides to implement some advanced techniques.
+
+
+Eventually, I can start looking at research papers of physical simulation algorithms and learn those, but that is somewhat long term.
+
+I need to dedicate at least one hour every day to this project. I want to finally follow through with something and this is what I have always been interested in. 
